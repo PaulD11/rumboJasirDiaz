@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;  
+    /* Nunca superara el tamaña definido. ni ancho ni alto */
+    box-sizing: border-box; 
+}
+#contPadre{
+    background: #e3e3d5;
+    height: 300px;
+    
+}
+.logoP{
+    width: 230px;
+
+}
+.carousel-item{
+    background-size: cover;
+}
+.carousel-item .captionMove{
+    top: 30%;
+
+}
+.carousel-item .captionMove h5{
+    font-size: 50px;
+    color: #fafa1b;
+}
+.carousel-item .captionMove p{
+    font-size: 25px;
+}
+.carousel-item .captionMove button{
+    font-size: 25px;
+    margin-top: 30px;
+}
+main #welcome{
+    padding: 130px 0;
+    background-color: black;
+}
+
+main #planes{
+    position: relative;
+    padding-bottom: 90px;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+footer #contacto1{
+    padding: 80px 50px;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background: rgb(243, 239, 2);
+    background-size: cover;
+    
+}
+main #planes h2{
+    position: relative;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+main #welcome .welcome-info h2{
+    color: rgb(82, 42, 114);
+    margin-top: 60px;
+    font-size: 30px;
+    font-size: 100px;
+
+}
+
+main #services{
+    position: relative;
+    padding-top: 40px;
+    background-color: transparent;
+
+
+}
+
+
+#services{
+    margin-top: 70px;
+    font-size: 60px;
+    color: white;
+    background-color: yellow;
+    background-size: cover;
+}
+#services h2{
+    font-size: 50px;
+    color: yellow;
+}
+#services h5{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+
+@media screen and (mid-width: 320px) and (max-width: 768px){
+    #services.row{
+        justify-content: center; 
+        margin-top: 40px;
+}
+}
+footer #contacto1{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: yellow;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+#contacto1 h3{
+    padding-bottom: 15px;
+    color: black;
+   
+}
+#contacto1 p{
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: black;
+   
+}
+#contacto1 form{
+    padding-bottom: 50px;
+
+}
+
+.container h3{
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+
+footer #contacto{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer #contacto h3{
+    padding-top: 10px;
+}
+main #planes{
+    margin-top: 50px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.cartas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+}
+#cartas {
+    font-size: 10px;
+
+}
+
+
